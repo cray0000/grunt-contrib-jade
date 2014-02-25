@@ -59,7 +59,7 @@ module.exports = function(grunt) {
         options = grunt.util._.extend(options, { filename: filepath });
 
         try {
-          compiled = require('jade').compile(src, options);
+          compiled = require('derby-jade').compile(src, options);
           // if in client mode, return function source
           if (options.client) {
             compiled = compiled.toString();
