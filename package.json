@@ -28,7 +28,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "jade": "git://github.com/cray0000/jade.git",
+    "jade": "git://github.com/cray0000/derby-jade.git#0.5",
     "grunt-lib-contrib": "~0.5.1"
   },
   "devDependencies": {
